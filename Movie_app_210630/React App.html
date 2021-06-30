@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="http://localhost:3000/favicon.ico">
+    <!--
+      Notice the use of  in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style type="text/css"></style><style type="text/css">* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #eff3f7;
+    height: 100%;
+  }
+  
+  html,
+  body,
+  #potato,
+  .container {
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  
+  .loader {
+    width: 100%;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  
+  .movies {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: start;
+        align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 50px;
+    padding-top: 70px;
+    width: 80%;
+  }
+  
+  .movies .movie {
+    width: 45%;
+    background-color: white;
+    margin-bottom: 70px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+        align-items: flex-start;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    font-weight: 300;
+    padding: 20px;
+    border-radius: 5px;
+    color: #adaeb9;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  }
+  
+  .movie img {
+    position: relative;
+    top: -50px;
+    max-width: 120px;
+    margin-right: 30px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+      0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  }
+  
+  .movie .movie__title,
+  .movie .movie__year {
+    margin: 0;
+    font-weight: 300;
+  }
+  
+  .movie .movie__title {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #2c2c2c;
+  }
+  
+  .movie .movie__genres {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 5px 0px;
+  }
+  
+  .movie__genres li,
+  .movie .movie__year {
+    margin-right: 10px;
+    font-size: 14px;
+  }</style><script type="text/javascript" charset="utf-8" src="./React App_files/0.f96d06c1dc849d07fd63.hot-update.js.다운로드"></script><script type="text/javascript" charset="utf-8" src="./React App_files/0.6d55d9f6ba23c80b176c.hot-update.js.다운로드"></script></head>
+  <body>
+    <div id="root"><section class="container"><div class="movies"><div class="movie"><img src="./React App_files/medium-cover.jpg" alt="Gabriel&#39;s Rapture" title="Gabriel&#39;s Rapture"><div class="movie_data"><h3 class="movie_title">Gabriel's Rapture</h3><h5 class="movie_year">2021</h5><p class="movie_summary">Based on the best selling novel from by Sylvain Reynard.</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Romance</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(1).jpg" alt="Doctor Who The Day of the Doctor" title="Doctor Who The Day of the Doctor"><div class="movie_data"><h3 class="movie_title">Doctor Who The Day of the Doctor</h3><h5 class="movie_year">2013</h5><p class="movie_summary">In 2013, something terrible is awakening in London's National Gallery; in 1562, a murderous plot is afoot in Elizabethan England; and somewhere in space an ancient battle reaches its devastating conclusion.</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Adventure</li><li class="genres_genre">Drama</li><li class="genres_genre">Family</li><li class="genres_genre">Mystery</li><li class="genres_genre">Sci-Fi</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(2).jpg" alt="The Shawshank Redemption" title="The Shawshank Redemption"><div class="movie_data"><h3 class="movie_title">The Shawshank Redemption</h3><h5 class="movie_year">1994</h5><p class="movie_summary">Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red.</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Crime</li><li class="genres_genre">Drama</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(3).jpg" alt="One Note at a Time" title="One Note at a Time"><div class="movie_data"><h3 class="movie_title">One Note at a Time</h3><h5 class="movie_year">2016</h5><p class="movie_summary">'If the musicians ain't got a chance to live, then what chance has the music got?' Dr John. This is a beautifully crafted, feature documentary, rich with colourful characters, and set in the iconic musical backdrop of New Orleans. In 2005 the music stopped, when one of the most deadly and destructive hurricanes in American history struck. The flood defences failed flooding the Crescent City for weeks. Lives were lost and shattered. Many displaced musicians felt compelled to return to the chaos and bleak confusion to play again. This is the story of some who made it back, told in their own words, with those who fought alongside to resuscitate the music scene; In particular the founders of The New Orleans Musicians' Clinic, a unique medical facility with the motto, 'Keeping the music alive'.</p><ul class="genres"><li class="genres_genre">Documentary</li><li class="genres_genre">Music</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(4).jpg" alt="Erasing Family" title="Erasing Family"><div class="movie_data"><h3 class="movie_title">Erasing Family</h3><h5 class="movie_year">2020</h5><p class="movie_summary">In North America, over 25 MILLION PARENTS are being erased from their children's lives after divorce and separation. The ERASING FAMILY documentary follows young adults fighting to reunite with their broken families. Through the eyes of 23-year-old Ashlynn, 12-year-old Lauren and 28-year-old Brian, consequences on mental health caused by profiteering high-conflict divorce court settlements are revealed. The film shows programs that encourage mediation and shared parenting which will prevent parental alienation and future childhood trauma, making divorce and separation less costly both financially and emotionally. The film ends with children and parents being reunited on screen and will inspire other kids to reach out to #erased parents, siblings and grandparents. —Ginger Gentile</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Documentary</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(5).jpg" alt="Götterdämmerung" title="Götterdämmerung"><div class="movie_data"><h3 class="movie_title">Götterdämmerung</h3><h5 class="movie_year">2013</h5><p class="movie_summary">The last of the four operas about The Ring of the Nibelungen: this death of the gods to make way for the humans, based on the Nibelungenlied.</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Music</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(6).jpg" alt="Avenged Sevenfold: Live in the L.B.C. &amp; Diamonds in the Rough" title="Avenged Sevenfold: Live in the L.B.C. &amp; Diamonds in the Rough"><div class="movie_data"><h3 class="movie_title">Avenged Sevenfold: Live in the L.B.C. &amp; Diamonds in the Rough</h3><h5 class="movie_year">2008</h5><p class="movie_summary">Avenged Sevenfold recorded their first live DVD at Long Beach Arena.</p><ul class="genres"><li class="genres_genre">Documentary</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(7).jpg" alt="The Godfather" title="The Godfather"><div class="movie_data"><h3 class="movie_title">The Godfather</h3><h5 class="movie_year">1972</h5><p class="movie_summary">The Godfather "Don" Vito Corleone is the head of the Corleone mafia family in New York. He is at the event of his daughter's wedding. Michael, Vito's youngest son and a decorated WW II Marine is also present at the wedding. Michael seems to be uninterested in being a part of the family business. Vito is a powerful man, and is kind to all those who give him respect but is ruthless against those who do not. But when a powerful and treacherous rival wants to sell drugs and needs the Don's influence for the same, Vito refuses to do it. What follows is a clash between Vito's fading old values and the new ways which may cause Michael to do the thing he was most reluctant in doing and wage a mob war against all the other mafia families which could tear the Corleone family apart. —srijanarora-152-448595</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Crime</li><li class="genres_genre">Drama</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(8).jpg" alt="Top Gear Africa Special, Part 1" title="Top Gear Africa Special, Part 1"><div class="movie_data"><h3 class="movie_title">Top Gear Africa Special, Part 1</h3><h5 class="movie_year">2013</h5><p class="movie_summary">In the first of a two-part Top Gear special, Jeremy Clarkson, Richard Hammond and James May are in Africa with a simple mission - to find the definitive source of the Nile. Over the years many explorers claim to have already done just that, but the Top Gear trio believe that they can do better by traveling using only grit, ingenuity and three ageing estate cars.</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Adventure</li><li class="genres_genre">Comedy</li><li class="genres_genre">Reality-TV</li><li class="genres_genre">Talk-Show</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(9).jpg" alt="CM101MMXI Fundamentals" title="CM101MMXI Fundamentals"><div class="movie_data"><h3 class="movie_title">CM101MMXI Fundamentals</h3><h5 class="movie_year">2013</h5><p class="movie_summary">The funny little details of everyday life; the simple things that makes us laugh. An unforgettable performance from Cem Yilmaz. Yilmaz captures the audience with his hilarious stories about relationships, humankind's struggle with the technology and professional life. Yilmaz proves us that a food delivery or even a funeral might be amusing when considered correctly.</p><ul class="genres"><li class="genres_genre">Comedy</li><li class="genres_genre">Documentary</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(10).jpg" alt="Soorarai Pottru" title="Soorarai Pottru"><div class="movie_data"><h3 class="movie_title">Soorarai Pottru</h3><h5 class="movie_year">2020</h5><p class="movie_summary">Inspired by the book 'Simply Fly', the film tells the story of Nedumaaran Rajangam known to friends as Maara, the son of a teacher, who sets out to make the common man fly and takes on the most capital intensive industry in the world with the help of his friends, family and sheer will power.</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Drama</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(11).jpg" alt="Saving Mes Aynak" title="Saving Mes Aynak"><div class="movie_data"><h3 class="movie_title">Saving Mes Aynak</h3><h5 class="movie_year">2014</h5><p class="movie_summary">Saving Mes Aynak follows Afghan archaeologist Qadir Temori as he races against time to save a 5,000-year-old archaeological site in Afghanistan from imminent demolition. A Chinese state-owned mining company is closing in on the ancient site, eager to harvest $100 billion dollars worth of copper buried directly beneath the archaeological ruins. Only 10% of Mes Aynak has been excavated, though, and some believe future discoveries at the site have the potential to redefine the history of Afghanistan and the history of Buddhism itself. Qadir Temori and his fellow Afghan archaeologists face what seems an impossible battle against the Chinese, the Taliban and local politics to save their cultural heritage from likely erasure. —Brent E. Huffman</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Documentary</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(12).jpg" alt="The Dark Knight" title="The Dark Knight"><div class="movie_data"><h3 class="movie_title">The Dark Knight</h3><h5 class="movie_year">2008</h5><p class="movie_summary">Set within a year after the events of Batman Begins (2005), Batman, Lieutenant James Gordon, and new District Attorney Harvey Dent successfully begin to round up the criminals that plague Gotham City, until a mysterious and sadistic criminal mastermind known only as "The Joker" appears in Gotham, creating a new wave of chaos. Batman's struggle against The Joker becomes deeply personal, forcing him to "confront everything he believes" and improve his technology to stop him. A love triangle develops between Bruce Wayne, Dent, and Rachel Dawes.</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Adventure</li><li class="genres_genre">Crime</li><li class="genres_genre">Drama</li><li class="genres_genre">Thriller</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(13).jpg" alt="The Godfather: Part II" title="The Godfather: Part II"><div class="movie_data"><h3 class="movie_title">The Godfather: Part II</h3><h5 class="movie_year">1974</h5><p class="movie_summary">The continuing saga of the Corleone crime family tells the story of a young Vito Corleone growing up in Sicily and in 1910s New York; and follows Michael Corleone in the 1950s as he attempts to expand the family business into Las Vegas, Hollywood and Cuba. —Keith Loh</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Crime</li><li class="genres_genre">Drama</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(14).jpg" alt="12 Angry Men" title="12 Angry Men"><div class="movie_data"><h3 class="movie_title">12 Angry Men</h3><h5 class="movie_year">1957</h5><p class="movie_summary">The defense and the prosecution have rested, and the jury is filing into the jury room to decide if a young man is guilty or innocent of murdering his father. What begins as an open-and-shut case of murder soon becomes a detective story that presents a succession of clues creating doubt, and a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, AND each other. Based on the play, all of the action takes place on the stage of the jury room. —pjk</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Crime</li><li class="genres_genre">Drama</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(15).jpg" alt="Natsamrat" title="Natsamrat"><div class="movie_data"><h3 class="movie_title">Natsamrat</h3><h5 class="movie_year">2016</h5><p class="movie_summary">The film is a tragedy about a veteran theatre actor named Ganpat "Appa" Belwalkar (Nana Patekar) who has been the best of his lot during his heyday, garnering fame and fortune acting in plays based on various works, especially William Shakespeare's. It is a tragedy of a veteran actor who enjoyed a very vital importance in his life but who becomes the victim of old age alienation and estrangement. The film reveals an intensely tragic fate of an actor who becomes victim of fate and fortune in old age, which is similar to the fate of Lear. Natsamrat suffers the pangs of old age and dishonor inflicted on him by his own children. It is a tragedy of great humanist and actor who succumbs to the ill fate and destiny. In fact, Natsamrat is a story of Ganpatrao Belvalkar, who withstands great suffering after his retirement from stage acting.</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Drama</li><li class="genres_genre">Family</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(16).jpg" alt="David Attenborough: A Life on Our Planet" title="David Attenborough: A Life on Our Planet"><div class="movie_data"><h3 class="movie_title">David Attenborough: A Life on Our Planet</h3><h5 class="movie_year">2020</h5><p class="movie_summary">One man has seen more of the natural world than any other. This unique feature documentary is his witness statement. In his 93 years, David Attenborough has visited every continent on the globe, exploring the wild places of our planet and documenting the living world in all its variety and wonder. Now, for the first time he reflects upon both the defining moments of his lifetime as a naturalist and the devastating changes he has seen. Honest, revealing and urgent, DAVID ATTENBOROUGH: A LIFE ON OUR PLANET is a powerful first-hand account of humanity's impact on nature and a message of hope for future generations. Created by award-winning natural history filmmakers Silverback Films and global conservation organization WWF, the film is Directed by Alastair Fothergill, Jonnie Hughes and Keith Scholey and Executive Produced by Colin Butfield. Celebrated British naturalist Sir David Attenborough has a broadcasting career spanning over eight decades. He has visited every continent on the ...</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Biography</li><li class="genres_genre">Documentary</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(17).jpg" alt="Holbrook/Twain: An American Odyssey" title="Holbrook/Twain: An American Odyssey"><div class="movie_data"><h3 class="movie_title">Holbrook/Twain: An American Odyssey</h3><h5 class="movie_year">2014</h5><p class="movie_summary">HOLBROOK/TWAIN: AN AMERICAN ODYSSEY chronicles the triumphant and tumultuous history of the longest-running one-man show in the history of theatre, Hal Holbrook's Tony and Emmy Award-winning masterpiece, "Mark Twain Tonight!"</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Documentary</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(18).jpg" alt="Pulp Fiction" title="Pulp Fiction"><div class="movie_data"><h3 class="movie_title">Pulp Fiction</h3><h5 class="movie_year">1994</h5><p class="movie_summary">Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hit men who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents.</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Crime</li><li class="genres_genre">Drama</li></ul></div></div><div class="movie"><img src="./React App_files/medium-cover(19).jpg" alt="Schindler&#39;s List" title="Schindler&#39;s List"><div class="movie_data"><h3 class="movie_title">Schindler's List</h3><h5 class="movie_year">1993</h5><p class="movie_summary">Oskar Schindler is a vain and greedy German businessman who becomes an unlikely humanitarian amid the barbaric German Nazi reign when he feels compelled to turn his factory into a refuge for Jews. Based on the true story of Oskar Schindler who managed to save about 1100 Jews from being gassed at the Auschwitz concentration camp, it is a testament to the good in all of us.</p><ul class="genres"><li class="genres_genre">Action</li><li class="genres_genre">Biography</li><li class="genres_genre">Drama</li><li class="genres_genre">History</li></ul></div></div></div></section></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start`.
+      To create a production bundle, use `npm run build`.
+    -->
+  <script type="text/javascript" src="./React App_files/bundle.js.다운로드"></script>
+
+</body></html>
